@@ -1,0 +1,317 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.welcome{
+  text-align: center;
+  min-height: 200px;
+}
+
+.welcome h1{
+  opacity: 1;
+  font-size: 80px;
+  color: skyblue;
+  animation-name: inOut;
+  animation-duration: 6s;
+}
+
+.container{
+  margin: 0 10px;
+}
+
+.try{
+  text-align: center;
+}
+
+/*Navbar*/
+.navbar{
+  background-color: skyblue;
+  overflow: hidden;
+  font-weight: bold;
+  box-shadow: 0 0 2px 1px black;
+}
+
+.navbar a{
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  padding: 20px 10px;
+  border-left: 1px black solid;
+  color: black;
+  font-size: 17px;
+}
+
+.navbar .auth{
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  padding: 20px 10px;
+  border-left: 1px black solid;
+  color: black;
+  font-size: 17px;
+}
+
+.navbar a:hover{
+  background-color: rgb(38, 128, 178, 0.8);
+  color: white;
+}
+
+.head{
+  text-align: center;
+  background-color: skyblue;
+  padding: 20px;
+  box-shadow: 0 0 2px 1px black;
+
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+.card{
+  float: left;
+  width: 32%;
+  font-weight: bold;
+  margin-left: 15px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.row:after{
+  content:"";
+  display:table;
+  clear: both;
+}
+
+
+.picture img{
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.btn{
+  padding: 10px 5px 10px 5px; /*top right bottom left*/
+  border: 1px solid black;
+  width:50%;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.btn-apply{
+  background-color: darkgreen;
+}
+
+.btn-donate{
+  background-color: red;
+}
+
+.btn-register{
+  background-color: darkblue;
+}
+
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+
+.btn-apply:hover{
+  background-color: limegreen;
+  box-shadow: 0 0 2px 1px black;
+}
+
+.btn-donate:hover{
+  background-color: orange;
+  box-shadow: 0 0 2px 1px black;
+}
+
+.btn-register:hover{
+  background-color: skyblue;
+  box-shadow: 0 0 2px 1px black;
+  color: black;
+}
+
+.btn-signup{
+  background-color: white;
+}
+
+.btn-signup:hover{
+  background-color: limegreen;
+  box-shadow: 0 0 2px 1px black;
+  transition-duration: 1s;
+}
+
+.btn-try{
+  background-color: darkgreen;
+}
+
+.btn-try:hover{
+  background-color: limegreen;
+  box-shadow: 0 0 2px 1px black;
+}
+
+.sign{
+  border: none;
+  padding: 5px;
+}
+
+.col{
+  width: 32%;
+  margin-left: 15px;
+  float: left;
+  text-align: center;
+  border: 1px solid black;
+  margin-top:20px;
+  margin-bottom:20px;
+  min-height: 250px;
+  box-shadow: 0 0 2px 1px black;
+}
+
+.col li{
+  list-style-type: none;
+  border-bottom: 1px black solid;
+  padding: 10px 0; /*top bottom(10px each)  left right(0 each)*/
+  font-size: 20px;
+}
+
+.col .header{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.col .callme{
+  color: darkblue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.row h2{
+  text-align: center;
+  font-size: 32px;
+  color: black;
+}
+
+.row h3{
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+.row span{
+  color: skyblue;
+}
+
+.count{
+  background-color: black;
+  box-shadow: 0 0 2px 1px skyblue;
+  padding-top: 10px;
+}
+
+
+.details{
+  width: 32%;
+  margin-left: 15px;
+  float: left;
+  text-align: center;
+  border: 2px solid black;
+  margin-top:20px;
+  min-height: 300px;
+}
+
+#bed{
+  color: white;
+  font-size: 32px;
+}
+#doctor{
+  color: white;
+  font-size: 32px;
+}
+#staff{
+  color:white;
+  font-size: 32px;
+}
+
+.details h3{
+  font-size: 30px;
+  color:skyblue;
+}
+
+.rtborder{
+  border-right: 1px solid skyblue;
+}
+
+.form-box{
+  padding: 150px 30px;
+  box-shadow: 0 0 2px 1px white;
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  background-color: rgb(0,0,0,0.5);
+}
+
+.form-box h1{
+  color: white;
+  font-size: 30px;
+}
+
+.login-form{
+  box-shadow: 0 0 2px 1px skyblue;
+  padding: 80px 10px;
+}
+
+.frow{
+  column-count: 2;
+  text-align: center;
+}
+
+.button{
+  text-align: center;
+}
+
+.legend{
+  color: white;
+  font-size: 25px;
+  width:50%;
+}
+
+.input{
+  width: 50%;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+}
+
+.frow span{
+  color: white;
+}
+
+/*Animations*/
+@keyframes fadein{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes inOut{
+  0%{
+    transform: translate3d(-70%,0,0);
+    opacity: 1;
+  }
+  50%{
+    transform: translate3d(0,0,0);
+    opacity: 1;
+  }
+  100%{
+    transform: translate3d(70%,0,0);
+    opacity: 1;
+  }
+}
